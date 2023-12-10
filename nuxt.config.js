@@ -35,7 +35,7 @@ export default {
     port: 3000
   },
   env: {
-    baseUrl: process.env.NODE_ENV === 'production' ? 'https://my-site.biz' : 'http://localhost:3000'
+    baseUrl: process.env.NODE_ENV === 'production' ? 'https://mysite.com' : 'http://localhost:3000'
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
